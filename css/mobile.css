@@ -1,0 +1,441 @@
+@media screen and (min-width: 1600px) {
+  #home {
+    padding-top: 10rem;
+    height: 100vh;
+  }
+
+  #home h1 {
+    font-size: 5rem;
+  }
+  #home h2 {
+    font-size: 3rem;
+  }
+  #home p {
+    font-size: 2rem;
+  }
+  #projects .card {
+    height: 35rem;
+  }
+}
+
+@media screen and (max-width: 1599px) {
+  #home {
+    padding-top: 5rem;
+    height: 60vh;
+  }
+
+  #home h1 {
+    font-size: 4rem;
+  }
+  #home h2 {
+    font-size: 2rem;
+  }
+  #home p {
+    font-size: 1.5rem;
+  }
+
+  .navbar img {
+    width: 40%;
+  }
+  #projects .card {
+    height: 35rem;
+  }
+
+  #about .bg-1,
+  #about .bg-2 {
+    height: 45%;
+  }
+
+  #about p {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar-nav .nav-item {
+    padding: 0 0.5rem;
+  }
+
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #home {
+    padding-top: 5rem;
+    height: 60vh;
+  }
+
+  #home h1 {
+    font-size: 4rem;
+  }
+  #home h2 {
+    font-size: 2rem;
+  }
+  #home p {
+    font-size: 1.5rem;
+  }
+  /* About  */
+  #about .img-fluid {
+    width: 40%;
+  }
+
+  #about .container {
+    width: 95vw;
+  }
+
+  #about .bg-1 {
+    height: 10%;
+  }
+
+  #about .bg-2 {
+    height: 50%;
+    padding: 5px 10px 5px;
+  }
+
+  section.home {
+    padding-top: 90px;
+  }
+}
+
+@media (max-width: 990px) {
+  .navbar img {
+    width: 30%;
+  }
+  #home {
+    padding-top: 5rem;
+    height: 50vh;
+  }
+
+  #home h1 {
+    font-size: 4rem;
+  }
+  #home h2 {
+    font-size: 2rem;
+  }
+  #home p {
+    font-size: 1.5rem;
+  }
+
+  #about .img-fluid {
+    width: 40%;
+  }
+
+  #about .bg-1 {
+    height: 10%;
+  }
+
+  #about .bg-2 {
+    height: 50%;
+    padding: 5px 10px 5px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar img {
+    width: 40%;
+  }
+  /* Hero  */
+  #home {
+    padding-top: 3rem;
+    height: 50vh;
+  }
+  #home h1 {
+    font-size: 3rem;
+  }
+  #home h2 {
+    font-size: 2rem;
+  }
+  #home p {
+    font-size: 1.5rem;
+  }
+  /* Education  */
+  .timeline-nodes:nth-child(odd) h3,
+  .timeline-nodes:nth-child(odd) p {
+    text-align: left;
+  }
+  .timeline-nodes:nth-child(even) {
+    flex-direction: row;
+  }
+  .timeline::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 1%;
+    width: 0;
+    border-left: 2px dashed #000000;
+    height: 100%;
+    z-index: 1;
+    transform: translateX(-50%);
+  }
+  .timeline h3 {
+    font-size: 1.7rem;
+  }
+  .timeline p {
+    font-size: 14px;
+  }
+  .timeline-image:before {
+    top: 100px;
+    left: 3%;
+  }
+  .timeline-image i {
+    position: absolute;
+    left: 1%;
+    top: 90px;
+  }
+  .timeline-nodes:nth-child(odd) .timeline-content::after {
+    content: "";
+    position: absolute;
+    top: 5%;
+    left: auto;
+    right: 100%;
+    width: 0;
+    border-left: 0;
+    border-right: 10px solid #000000;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+  }
+  .timeline-nodes:nth-child(even) .timeline-content::after {
+    content: "";
+    position: absolute;
+    top: 5%;
+    right: 100%;
+    width: 0;
+    border-right: 10px solid #000000;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+  }
+  .timeline-date p {
+    text-align: left;
+  }
+  .timeline-image::before {
+    width: 65px;
+    height: 65px;
+  }
+  .timeline-date .time {
+    padding-left: 50px;
+  }
+
+  /* Projects  */
+  #projects .card {
+    height: 38rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .navbar img {
+    width: 50%;
+  }
+
+  #home {
+    padding-top: 3rem;
+    height: 50vh;
+  }
+  #home h1 {
+    font-size: 3rem;
+  }
+  #home h2 {
+    font-size: 2rem;
+  }
+  #home p {
+    font-size: 1.5rem;
+  }
+  /* About Section */
+
+  #about .img-fluid {
+    width: 50%;
+  }
+
+  #about .container {
+    width: 100vw;
+  }
+
+  #about .bg-1 {
+    height: 10%;
+  }
+  #about .bg-2 {
+    height: 30%;
+    padding: 5px 10px 5px;
+  }
+
+  #projects .card {
+    height: 37rem;
+  }
+
+  #skills i:hover {
+    box-shadow: none;
+    transform: none;
+    transition: none;
+  }
+
+  #skills .canva-icon:hover {
+    box-shadow: none;
+    transform: none;
+    transition: none;
+  }
+}
+/*extra small device style */
+@media (max-width: 575px) {
+  .navbar img {
+    width: 50%;
+  }
+
+  #home {
+    padding-top: 5rem;
+    height: 50vh;
+  }
+  #home h1 {
+    font-size: 2rem;
+  }
+  #home h2 {
+    font-size: 1.5rem;
+  }
+  #home p {
+    font-size: 1.5rem;
+  }
+
+  #about .bg-2 {
+    height: 30%;
+    padding: 5px 10px 5px;
+  }
+
+  .timeline::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 4%;
+  }
+  .timeline-image i {
+    position: absolute;
+    top: 90px;
+    left: 4%;
+  }
+  .timeline-image::before {
+    width: 50px;
+    height: 50px;
+    top: 100px;
+    left: 7%;
+  }
+
+  .timeline-date .time {
+    padding-left: 50px;
+  }
+
+  /* Experience  */
+
+  #experience {
+    height: 50vh;
+  }
+  #experience h2 {
+    text-align: center;
+    align-content: center;
+  }
+
+  #experience h3,
+  #experience h4 {
+    text-align: justify;
+  }
+  #footer .copyright {
+    text-align: center;
+  }
+
+  /* Projects  */
+  #projects .card {
+    height: 37rem;
+  }
+
+  #skills i:hover {
+    box-shadow: none;
+    transform: none;
+    transition: none;
+  }
+
+  #skills .canva-icon:hover {
+    box-shadow: none;
+    transform: none;
+    transition: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar img {
+    width: 50%;
+  }
+
+  #projects .card {
+    height: 35rem;
+  }
+
+  #experience {
+    height: 45vh;
+  }
+
+  #experience h3,
+  #experience h4 {
+    font-size: 19px;
+    text-align: justify;
+  }
+  #footer .info li a {
+    font-size: 12px;
+  }
+
+  #skills i:hover {
+    box-shadow: none;
+    transform: none;
+    transition: none;
+  }
+
+  #skills .canva-icon:hover {
+    box-shadow: none;
+    transform: none;
+    transition: none;
+  }
+}
+@media (max-width: 300px) {
+  #home {
+    padding-top: 3rem;
+    height: 40vh;
+  }
+
+  #home h1 {
+    font-size: 5rem;
+  }
+  #home h2 {
+    font-size: 3rem;
+  }
+  #home p {
+    font-size: 2rem;
+  }
+  #home h1 {
+    font-size: 1.5rem;
+  }
+  #home h2 {
+    font-size: 1rem;
+  }
+  #home p {
+    font-size: 1rem;
+  }
+  #experience {
+    height: 35vh;
+  }
+
+  #experience h3,
+  #experience h4 {
+    font-size: 13px;
+    text-align: start;
+  }
+
+  #skills i:hover {
+    box-shadow: none;
+    transform: none;
+    transition: none;
+  }
+
+  #skills .canva-icon:hover {
+    box-shadow: none;
+    transform: none;
+    transition: none;
+  }
+}

@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- BOOTSTRAP  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />  -->
+    <!-- FONTs -->
+    <link
+      href="https://fonts.cdnfonts.com/css/catalish-huntera"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.cdnfonts.com/css/nature-beauty-personal-use"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>Tinapen | My Portfolio</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top top" id="navbar" onmousemove="showNavbar()" onmouseout="hideNavbar()">
+      <div class="container-lg">
+        <a class="navbar-brand fw-bold" href="#">
+          <img src="./images/tinapen-gradient-removebg-preview.png" alt="logo img">
+          <span>Tinapen</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+           
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-lg-none" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <a
+            class="btn btn-rectangle d-none d-lg-block text-center py-2 fs-5"
+            href="#contact"
+            >Contact</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="home" id="home">
+      <div class="container pt-3">
+        <div class="column">
+          <div class="row-sm-6 text-center mt-lg-5 mb-lg-5">
+            <p class="fw-bold">Hello, I'm</p>
+            <h1 class="fw-bold">Maria Cristina Peñaflor</h1>
+            <h2 class="fw-bold">Web Developer</h2>
+            <a class="btn btn-oval-sm text-center mt-3" href="https://drive.google.com/file/d/1GrtvASlhBDlJWeU9XGzt1ck8ZvXlhdwl/view?usp=sharing" target="_blank">See my resume</a>
+              
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="column text-center">
+          <div class="row-sm-6 bg-1 align-items-center">
+            <img
+              class="img-fluid"
+              src="./images/My Formal Picture.png"
+              alt="My Formal Picture"
+            />
+          </div>
+          <div class="row-sm-6 bg-2">
+            <h2
+              class="display-5 fw-bold pt-lg-5"
+            >
+              About Me
+            </h2>
+            <p class="d-lg fs-4 d-sm fs-6 px-lg-5 pb-lg-5 ">
+              "A creative Web Developer adept in all stages of advanced web development. Proficient in an assortment of  technologies, including HTMl/CSS, JavaScript, PHP, and MySQL. Able to effectively self-manage during  independent projects, as well as collaborate in a team setting."
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education mt-3" id="education">
+      <div class="container">
+        <h2 class="display-5 fw-bold mb-lg-5 text-center">Educational Background</h2>
+        <p class="fs-5 text-center">My educational journey has equipped me with the knowledge and skills necessary to excel as a web developer. Here’s a brief overview of my educational background represented by a timeline.</p>
+        <div class="timeline">
+          <div
+            class="row no-gutters justify-content-end justify-content-md-around align-items-start timeline-nodes">
+            <div
+              class="col-10 col-md-5 order-3 order-md-1 timeline-content text-end"
+            >
+              <h3 class="fw-bold">Bootcamp</h3>
+              <p class="fw-bold">Full - Stack Web Development</p>
+              <p>Kodego</p>
+            </div>
+            <div
+              class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center"
+            >
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <div class="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
+              <p class="time">May 2024 - October 2024</p>
+            </div>
+          </div>
+          <div
+            class="row no-gutters justify-content-end justify-content-md-around align-items-start timeline-nodes"
+          >
+            <div class="col-10 col-md-5 order-3 order-md-1 timeline-content">
+              <h3 class="fw-bold">College</h3>
+              <p class="fw-bold">Bachelor of Science in Information Technology</p>
+              <p>Baliwag Polytechnic College</p>
+            </div>
+            <div
+              class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center"
+            >
+              <i class="fas fa-building-columns"></i>
+            </div>
+            <div
+              class="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date text-end"
+            >
+              <p class="time">June 2019 - May 2023</p>
+            </div>
+          </div>
+          <div
+            class="row no-gutters justify-content-end justify-content-md-around align-items-start timeline-nodes"
+          >
+            <div
+              class="col-10 col-md-5 order-3 order-md-1 timeline-content text-end"
+            >
+              <h3 class="fw-bold">Senior High School</h3>
+              <p class="fw-bold">TECHVOC-ICT Strand Major in Animation</p>
+              <p>Baliwag Polytechnic College</p>
+            </div>
+            <div
+              class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center"
+            >
+              <i class="fas fa-school"></i>
+            </div>
+            <div class="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
+              <p class="time">June 2018 - May 2019</p>
+            </div>
+          </div>
+          <div
+            class="row no-gutters justify-content-end justify-content-md-around align-items-start timeline-nodes"
+          >
+            <div class="col-10 col-md-5 order-3 order-md-1 timeline-content">
+              <h3 class="fw-bold">Senior High School</h3>
+              <p class="fw-bold">TECHVOC-ICT Strand Major in Programming</p>
+              <p>Systems Technology Institute</p>
+            </div>
+            <div
+              class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center"
+            >
+              <i class="fas fa-school"></i>
+            </div>
+            <div
+              class="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date text-end"
+            >
+              <p class="time">June 2017 - May 2018</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience 
+     <section class="experience" id="experience">
+      <div class="container">
+        <h2 class="display-5 fw-bold text-center">Professional Experience</h2>
+      </div>
+      <hr>
+      <div class="container mt-lg-5 mt-sm-3">
+        <div class="row">
+          <div class="col-sm-12 align-items-center">
+            <h3 class="display-6 fw-bold"><i class="fa-solid fa-briefcase"></i>
+              Intern Web Developer</h2>
+            <h3><i class="fas fa-building"></i> Teravision Corporation</h3>
+            <h4><i class="fas fa-location-dot"></i> Country Homes, Quezon City, NCR</h4>
+            <h4><i class="fas fa-calendar"></i> February 2023 - May 2023</h4>
+            
+          </div>
+        </div>
+      </div>
+     </section> -->
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+      <div class="container">
+        <h2 class="display-5 fw-bold">Skills</h2>
+        <p class="fs-5">As an aspiring web developer, I have cultivated a diverse skill set that enables me to tackle a wide range of projects. </p>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-3 col-sm-12 col-md-6 mt-2 skill-box">
+              <div>
+                <i class="fab fa-html5"></i>
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">HTML</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-12 col-md-6 mt-2 skill-box">
+              <div>
+                <i class="fab fa-css3"></i>
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">CSS</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-12 col-md-6 mt-2 skill-box">
+              <div>
+                <i class="fab fa-bootstrap"></i>
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">BOOTSRAP CSS</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-12 col-md-6 mt-2 skill-box">
+              <div>
+                <i class="fab fa-bootstrap"></i>
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">TAILWIND CSS</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row justify-content-center">
+            <div class="col-lg-3 col-sm-12 col-md-6 mt-2 skill-box">
+              <div>
+                <i class="fab fa-js"></i>
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">JAVASCRIPT</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-12 col-md-6 mt-3 skill-box">
+              <div>
+                <i class="fab fa-react"></i>
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">REACT JS</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-12 col-md-6 mt-3 skill-box">
+              <div>
+                <i class="fab fa-php"></i>
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">PHP</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-12 col-md-6 mt-3 skill-box">
+              <div>
+                <i class="fas fa-database"></i>
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">MYSQL</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row justify-content-center">
+            <div class="col-lg-3 col-sm-12 col-md-6 mt-3 skill-box">
+              <div>
+                <i class="fab fa-laravel"></i>
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">LARAVEL</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-12 col-md-6 mt-3 skill-box">
+              <div>
+                <i class="fab fa-github"></i>
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">GITHUB</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-12 col-md-6 mt-3 skill-box">
+              <div>
+                <i class="fab fa-google"></i>
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">GOOGLE WORKSPACE</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-12 col-md-6 mt-3 skill-box">
+              <div>
+                <i class="fab fa-microsoft"></i>
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">MICROSOFT OFFICE</h5>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="col-lg-3 col-sm-12 col-md-6 mt-3 skill-box">
+              <div>
+                <div class="canva-icon fw-bold img-fluid text-center">
+                  <p>C</p>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">CANVA</h5>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 mt-4 text-start">
+              <p>These skills empower me to deliver exceptional web development projects, ensuring functionality, aesthetics, and user experience are all top-notch. If you’re interested in collaborating or learning more about my capabilities, feel free to <span><a class="fw-bold" href="#contact">get in touch.</a></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section  -->
+    <section class="projects" id="projects">
+      <div class="container">
+        <h2 class="display-5 fw-bold mt-1 mb-4 text-center">Projects</h2>
+        <p class="fs-5 text-center">Take a look at some of the projects I’ve had the pleasure of working on.</p>
+        <div class="row mt-2">
+          <!-- <div class="col-xxl-4 col-xl-4 col-lg-6 col-sm-12 col-md-6 mt-3">
+            <div class="card">
+              <div class="card-body bg-image hover-zoom">
+                <img
+                  src="./images/KodeLedger.png"
+                  alt="KodeLedger"
+                  class="card-img-top hover-zoom"
+                />
+                <h5 class="card-title fw-bold pt-2">KodeLedger</h5>
+                <p class="card-text">
+                  A comprehensive business website for managing financial
+                  records and transactions
+                </p>
+                <div class="text-start">
+                 <p>Technologies used:</p> 
+                </div>
+                <div>
+                  <i class="fab fa-html5"></i>
+                  <i class="fab fa-css3"></i>
+                  <i class="fab fa-js"></i>
+                </div>
+                <div class="card-body d-grid gap-2 d-block">
+                  <a href="https://kodeledger-by-tinapen.netlify.app/" target="_blank" class="btn bg-color-1" target="_blank">See Demo</a>
+                  <a href="https://github.com/tinapen/KodeLedger" target="_blank" class="btn bg-color-1" target="_blank">See Repo</a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <div class="col-xxl-4 col-xl-4 col-lg-6 col-sm-12 col-md-6 mt-3">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="./images/KodeNews.png"
+                  alt="KodeLedger"
+                  class="card-img-top hover-zoom"
+                />
+                <h5 class="card-title fw-bold pt-2">KodeNews</h5>
+                <p class="card-text">
+                  A modern news website providing the latest updates and
+                  articles about sports, latest trends and technologies.
+                </p>
+                <div class="text-start">
+                  <p>Technologies used:</p> 
+                 </div>
+                 <div>
+                   <i class="fab fa-html5"></i>
+                   <i class="fab fa-css3"></i>
+                   <i class="fab fa-js"></i>
+                 </div>
+                 <div class="card-body d-grid gap-2 d-block">
+                   <a href="https://kodenews-by-tinapen.netlify.app/" target="_blank" class="btn bg-color-1" target="_blank">See Demo</a>
+                   <a href="https://github.com/tinapen/KodeNews" target="_blank" class="btn bg-color-1" target="_blank">See Repo</a>
+                 </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-4 col-xl-4 col-lg-6 col-sm-12 col-md-6 mt-3">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="./images/KodeResto.png"
+                  alt="KodeLedger"
+                  class="card-img-top hover-zoom"
+                />
+                <h5 class="card-title fw-bold pt-2">KodeResto</h5>
+                <p class="card-text">
+                  A vibrant restaurant website showcasing menus, reservoirs, and
+                  customer reviews
+                </p>
+                <div class="text-start">
+                  <p>Technologies used:</p> 
+                 </div>
+                 <div>
+                   <i class="fab fa-html5"></i>
+                   <i class="fab fa-css3"></i>
+                   <i class="fab fa-bootstrap"></i>
+                   <i class="fab fa-js"></i>
+                 </div>
+                 <div class="card-body d-grid gap-2 d-block">
+                   <a href="https://koderesto-by-tinapen.netlify.app/" target="_blank" class="btn bg-color-1" target="_blank">See Demo</a>
+                   <a href="https://github.com/tinapen/KodeResto" target="_blank" class="btn bg-color-1" target="_blank">See Repo</a>
+                 </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-4 col-xl-4 col-lg-6 col-sm-12 col-md-6 mt-3">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="./images/music player with api.png"
+                  alt="KodeLedger"
+                  class="card-img-top hover-zoom"
+                />
+                <h5 class="card-title fw-bold pt-2">Music Player with Rapid API</h5>
+                <p class="card-text">
+                  A web music player with lyrics. It also has tabs for other albums of the artist of the song and related artists.
+                </p>
+                <div class="text-start">
+                  <p>Technologies used:</p> 
+                 </div>
+                 <div>
+                   <i class="fab fa-html5"></i>
+                   <i class="fab fa-css3"></i>
+                   <i class="fab fa-js"></i>
+                 </div>
+                 <div class="card-body d-grid gap-2 d-block">
+                   <a href="https://music-player-with-api.netlify.app/" target="_blank" class="btn bg-color-1" target="_blank">See Demo</a>
+                   <a href="https://github.com/tinapen/music-player-with-rapid-api" target="_blank" class="btn bg-color-1" target="_blank">See Repo</a>
+                 </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-4 col-xl-4 col-lg-6 col-sm-12 col-md-6 mt-3">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="./images/lyrix.png"
+                  alt="Lyrix"
+                  class="card-img-top hover-zoom"
+                />
+                <h5 class="card-title fw-bold pt-2">Lyrix</h5>
+                <p class="card-text">
+                  A website where you can search song lyrics and can play its song preview
+                </p>
+                <div class="text-start">
+                  <p>Technologies used:</p> 
+                 </div>
+                 <div>
+                  <i class="fa-brands fa-react"></i>
+                  <i class="fab fa-css3"></i>
+
+                 </div>
+                 <div class="card-body d-grid gap-2 d-block">
+                   <a href="https://mini-project-2-lyrix-by-tinapen.netlify.app/" target="_blank" class="btn bg-color-1" target="_blank">See Demo</a>
+                   <a href="https://github.com/tinapen/Mini-Project-1" target="_blank" class="btn bg-color-1" target="_blank">See Repo</a>
+                 </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-xxl-4 col-xl-4 col-lg-6 col-sm-12 col-md-6 mt-3">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="./images/tic-tac-toe game.png"
+                  alt="KodeLedger"
+                  class="card-img-top hover-zoom"
+                />
+                <h5 class="card-title fw-bold pt-2">Tic-Tac-Toe Game</h5>
+                <p class="card-text">
+                  A simple online tic-tac-toe game where your opponent is the computer.
+                </p>
+                <div class="text-start">
+                  <p>Technologies used:</p> 
+                 </div>
+                 <div>
+                   <i class="fab fa-html5"></i>
+                   <i class="fab fa-css3"></i>
+                   <i class="fab fa-js"></i>
+                   <i class="fa-brands fa-react"></i>
+                 </div>
+                 <div class="card-body d-grid gap-2 d-block">
+                   <a href="https://portfolioproject1-by-tinapen.netlify.app/" target="_blank" class="btn bg-color-1" target="_blank">See Demo</a>
+                   <a href="https://github.com/tinapen/Portfolio-Project-1" target="_blank" class="btn bg-color-1" target="_blank">See Repo</a>
+                 </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-4 col-xl-4 col-lg-6 col-sm-12 col-md-6 mt-3">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="./images/PortfolioProject1.png"
+                  alt="KodeLedger"
+                  class="card-img-top hover-zoom"
+                />
+                <h5 class="card-title fw-bold pt-2">Portfolio Website</h5>
+                <p class="card-text">
+                  A website that showcasing a short description about me, my
+                  skills and recent projects
+                </p>
+                <div class="text-start">
+                  <p>Technologies used:</p> 
+                 </div>
+                 <div>
+                   <i class="fab fa-html5"></i>
+                   <i class="fab fa-css3"></i>
+                   <i class="fab fa-js"></i>
+                 </div>
+                 <div class="card-body d-grid gap-2 d-block">
+                   <a href="https://portfolioproject1-by-tinapen.netlify.app/" target="_blank" class="btn bg-color-1" target="_blank">See Demo</a>
+                   <a href="https://github.com/tinapen/Portfolio-Project-1" target="_blank" class="btn bg-color-1" target="_blank">See Repo</a>
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-3">
+          <div class="col-sm-12">
+            <p>Feel free to explore these projects to see my work in action. If you have any questions or want to discuss a potential project, don't hesitate to <span><a class="fw-bold" href="#contact">get in touch.</a></span</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="container px-3">
+        <div class="row align-items-center">
+          <div class="col-sm-12 col-md-12 col-lg-6 mb-3 px-5">
+            <p class="contact-header">Contact Me</p>
+            <h2 class="contact-second-hearder fw-bold">
+              <span> Let's Connect</span> <br />
+              and Collaborate!
+            </h2>
+            <p class="contact-content">
+              I'm always excited to connect with fellow tech enthusiasts,
+              potential collaborators, and anyone interested in discussing web
+              development. Whether you have a project in mind, need assistance
+              with your website, or just want to chat about the latest in tech,
+              feel free to reach out. Let's turn ideas into reality together!
+            </p>
+            <div>
+              <div class="col-sm-12 contact-icons mt-5">
+                <p>Follow Me</p>
+
+                <a href="mailto:cristinapenaflor.work@gmail.com"
+                  ><i class="fas fa-envelope"></i
+                ></a>
+                <a
+                  href="https://www.facebook.com/profile.php?id=100094654232332"
+                  target="_blank"
+                  ><i class="fab fa-facebook"></i
+                ></a>
+                <a href="tel:+639991835841"><i class="fas fa-phone"></i></a>
+                <a
+                  href="https://www.linkedin.com/in/mariacristinataccadpenaflor/"
+                  target="_blank"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-6 form">
+            <form action="" class="p-3 text-start">
+              <div class="mb-3">
+                <label for="name" class="form-label">Full Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Enter Your Name"
+                  class="form-control"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Enter Your Email"
+                  class="form-control"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input
+                  type="text"
+                  name="phone"
+                  id="phone"
+                  placeholder="Enter Your Phone Number"
+                  class="form-control"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Your Message</label>
+                <textarea
+                  name="message"
+                  id="message"
+                  cols="48"
+                  rows="10"
+                  class="form-control"
+                ></textarea>
+              </div>
+              <button class="btn btn-oval-lg">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section class="footer" id="footer">
+        <div class="container pt-5">
+          <div class="row">
+            <div class="col-lg-6">
+              <h3 class="fw-bold">Information</h3>
+              <ul class="list-unstyled info">
+                <li class="mb-2"><a href="mailto:cristinapenaflor.work@gmail.com"><i class="fas fa-envelope"></i> cristinapenaflor.work@gmail.com</a> 
+                </li>
+                <li class="mb-2"><a href="https://github.com/tinapen" target="_blank"><i class="fab fa-github"></i> github.com/tinapen</a></li>
+                <li class="mb-2"><a href="https://www.linkedin.com/in/mariacristinataccadpenaflor/" target="_blank"><i class="fab fa-linkedin"></i
+                  > linkedin.com/in/mariacristinataccadpenaflor/</a></li>
+                <li class="mb-2"><a href="https://www.facebook.com/profile.php?id=100094654232332" target="_blank"><i class="fab fa-facebook"></i> facebook.com/profile.php?id=100094654232332</a></li>
+                <li class="mb-2"><a href="tel:+639991835841"><i class="fas fa-phone"></i> +63 999 183 5841</a></li>
+                <li class="mb-2"><a href="https://maps.app.goo.gl/oXEyUpK4JnYitD9J8" target="_blank"><i class="fas fa-location-dot"></i> San Rafael, Bulacan,
+                  Philippines, 3008 </a></li>
+                <br>
+              </ul>
+            </div>
+            <div class="col-lg-3">
+              <h3 class="fw-bold">Projects</h3>
+              <ul class="list-unstyled">
+                <li class="mb-2"><a class="fs-5" href="https://kodeledger-by-tinapen.netlify.app/" target="_blank">KodeLedger</a></li>
+                <li class="mb-2"><a class="fs-5" href="https://kodenews-by-tinapen.netlify.app/" target="_blank">KodeNews</a></li>
+                <li class="mb-2"><a class="fs-5" href="https://koderesto-by-tinapen.netlify.app/" target="_blank">KodeResto</a></li>
+                <li class="mb-2"><a class="fs-5" href="https://portfolioproject1-by-tinapen.netlify.app/" target="_blank">Portfolio Website</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3">
+              <h3 class="fw-bold">Quick Links</h3>
+              <ul class="list-unstyled">
+                <li class="mb-2"><a class="fs-5" href="#about">About</a></li>
+                <li class="mb-2"><a class="fs-5" href="#education">Education</a></li>
+                <li class="mb-2"><a class="fs-5" href="#experience">Experience</a></li>
+                <li class="mb-2"><a class="fs-5" href="#skills">Skills</a></li>
+                <li class="mb-2"><a class="fs-5" href="#projects">Projects</a></li>
+              </ul>
+            </div>
+            <div>
+              <div class="row">
+                <div class="col-sm-12">
+                  <p class="copyright">&copy; 2024 | TinaPen | All Rights Reserved</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <script>
+      const navbar = document.getElementById("navbar");
+      let scrolled = false;
+
+      window.onscroll = function () {
+        if (window.pageYOffset > 100) {
+          navbar.classList.remove("top");
+          if (!scrolled) {
+            navbar.style.transform = "translateY(-70px)";
+          }
+
+          setTimeout(function () {
+            navbar.style.transform = "translateY(0)";
+            scrolled = true;
+          }, 200);
+        } else {
+          navbar.classList.add("top");
+          scrolled = false;
+        }
+      };
+    </script>
+
+    
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
